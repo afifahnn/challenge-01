@@ -1,0 +1,506 @@
+body {
+    margin: 0rem;
+    font-size: 0.96rem;
+}
+
+* {
+    font-family: Helvetica !important;
+}
+
+/* navbar */
+.navbar {
+    /* height: 5.25rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 5rem; */
+    background: #f1f3ff;
+    /* position: fixed; */
+}
+
+.nav-item {
+    display: flex;
+    margin: 0.5rem 1rem;
+    align-items: center;
+    color: #000000;
+    font-size: 0.875rem;
+    font-family: Helvetica;
+    font-weight: 600;
+}
+
+/* .link a{
+    text-decoration: none;
+    color: #000000;
+} */
+
+.collapse .navbar-nav .nav-item a:hover {
+    color: rgb(184, 182, 182);
+}
+
+.nav-item .btn {
+    font-size: 0.9rem;
+    background: #5cb85f;
+    color: white;
+    width: 5rem;
+    height: 2.25rem;
+    border: none;
+    border-radius: 0.3125rem;
+    font-weight: bold;
+}
+
+/* block header */
+#blockHeader {
+    width: 100%;
+    display: flex;
+    background: #f1f3ff;
+    padding-top: 3.5rem;
+}
+
+.sectionKiri {
+    /* background: red; */
+    width: 50%;
+    /* height: 15rem; */
+    font-family: Helvetica;
+    padding: 5rem 7rem;
+}
+
+.sectionKiri h1 {
+    font-size: 2.25rem;
+    line-height: 3.375rem;
+    font-weight: bold;
+}
+
+.sectionKiri p {
+    line-height: 1.25rem;
+    padding: 0rem 6.25rem 0rem 0rem;
+}
+
+.sectionKiri button {
+    background: #5cb85f;
+    color: white;
+    width: 10rem;
+    height: 2.25rem;
+    border: none;
+    border-radius: 0.3125rem;
+    padding: 0.5rem, 0.75rem;
+    font-weight: bold;
+}
+
+.nav-item .btn:hover,
+.sectionKiri button:hover {
+    background: rgb(156, 199, 156);
+}
+
+.sectionKanan {
+    /* background: blue; */
+    width: 50%;
+    /* height: 25rem; */
+    position: relative;
+    /* background: url(../img/img_car.png);
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+.sectionKanan .imgCar {
+    background: url(../img/img_car.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40rem;
+    height: 22rem;
+    position: absolute;
+    bottom: 0rem;
+    right: 0rem;
+}
+
+/* block 1 */
+.block1 {
+    width: 100%;
+    display: flex;
+}
+
+.sectionKiri1 {
+    /* background: red; */
+    width: 50%;
+    /* height: 32rem; */
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 3rem;
+}
+
+.imgService {
+    background: url(../img/img_service.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 28.125rem;
+    height: 25rem;
+    position: absolute;
+    right: 3.125rem;
+}
+
+.sectionKanan1 {
+    /* background: blue; */
+    width: 50%;
+    /* height: 28rem; */
+    font-family: Helvetica;
+    padding: 4rem;
+    /* padding: 0.625rem; */
+}
+
+.sectionKanan1 h3 {
+    line-height: 2.25rem;
+    font-size: 1.625rem;
+    font-weight: bold;
+}
+
+.sectionKanan1 p {
+    line-height: 1.25rem;
+    padding-right: 5rem;
+}
+
+.cek {
+    display: flex;
+    flex-direction: column;
+    /* gap: 0rem; */
+}
+
+.cek1 {
+    display: flex;
+    align-items: center;
+    /* padding: 0px; */
+}
+
+.cek1 p{
+    margin: 0.625rem;
+}
+
+.imgCek {
+    background: url(../img/ceklis.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.625rem;
+}
+
+/* why us */
+#whyus{
+    /* height: 25rem; */
+    margin: 4rem 8rem;
+    /* background: red; */
+}
+
+#whyus .ppp{
+    margin-bottom: 2rem;
+}
+
+/* why us bootstrap */
+.card-body{
+    padding: 2rem; 
+}
+
+img, .card-title, .card-text{
+    padding: 0.3rem;
+}
+
+/* testimonial */
+#testi{
+    /* background: rgb(148, 148, 214); */
+    padding-top: 3rem;
+    line-height: 3rem;
+}
+
+#testi h3{
+    font-weight: bold;
+}
+
+.slider{
+    background: #F1F3FF;
+    /* background: #5cb85f; */
+    display: flex;
+    align-items: center;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    margin: 0rem 25rem;
+}
+
+.leftBox{
+    /* background: red; */
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.rightBox{
+    /* background: orange; */
+    width: 70%;
+}
+
+.buttonSlide{
+    /* background: blue; */
+    height: 3rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 1rem;
+}
+
+/* .btnCarouselPrev, .btnCarouselNext{
+    background: red !important;
+    border-radius: 100%;
+    width: 40px !important;
+    height: 40px;
+    margin: 0rem !important;
+    padding: 0rem !important;
+} */
+
+.buttonSlide button{
+    border: 1px solid #C4C4C4;
+    background: none;
+    color: black;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+}
+
+.buttonSlide button:hover{
+    background: #5cb85f;
+}
+
+/* banner */
+.banner {
+    /* background: red; */
+    font-family: Helvetica;
+    padding: 5rem 8.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .cardBan{
+    background: #0D28A6;
+    color: #F1F3FF;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .cardBan p {
+    line-height: 1.25rem;
+    padding: 1rem;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.banner .cardBan button {
+    background: #5cb85f;
+    color: white;
+    width: 10rem;
+    height: 2.25rem;
+    border: none;
+    border-radius: 0.3125rem;
+    padding: 0.5rem, 0.75rem;
+    font-weight: bold;
+}
+
+.banner .cardBan button:hover {
+    background: rgb(156, 199, 156);
+}
+
+/* FAQ */
+#faq{
+    /* background: red; */
+    display: flex;
+    padding: 2rem 8.5rem;
+}
+
+.faqKiri{
+    /* background: grey; */
+    width: 50%;
+    margin-top: 1rem;
+}
+
+.faqKanan{
+    /* background: blue; */
+    width: 50%;
+}
+
+.accordion-header{
+    margin: 1rem 0rem;
+    border-radius: 4px;
+    border: 1px solid #D4D4D4;
+    height: 3.5rem;
+}
+
+/* footer */
+.footer{
+    /* background: red; */
+    display: flex;
+    padding: 5rem 7rem;
+    gap: 1rem;
+}
+
+.foot{
+    /* background: blue; */
+    width: 25%;
+}
+
+.foot2{
+    /* background: orange; */
+    width: 25%;
+    padding: 0rem 5rem;
+}
+
+.icon{
+    display: flex;
+}
+
+.foot .icon img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.foot img{
+    width: 6rem;
+    height: 2.5rem;
+}
+
+/* responsive */
+@media (max-width: 768px) {
+    /* block header */
+    #blockHeader{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sectionKiri, .sectionKanan{
+        width: 100%;
+        height: 100%;
+        padding: 2rem;
+    }
+
+    .sectionKiri p{
+        padding: 0rem;
+    }
+
+    .sectionKanan{
+        max-width: 100vw;
+        height: 15rem;
+        /* position: relative; */
+    }
+
+    .sectionKanan .imgCar{
+        width: 22rem;
+        height: 12rem;
+    }
+
+    /* block 1 */
+    .block1{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+    }
+
+    .sectionKiri1, .sectionKanan1{
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .sectionKiri1{
+        height: 25rem;
+        padding: 2rem;
+    }
+
+    .sectionKiri1 .imgService{
+        width: 18rem;
+        height: 17rem;
+        margin: 2rem;
+    }
+
+    .sectionKanan1 p{
+        padding: 0rem;
+    }
+
+    .sectionKanan1 .imgCek{
+        margin: 0rem;
+    }
+
+    /* why us */
+    #whyus {
+      margin: 2rem;
+      display: flex;
+      flex-direction: column;
+    }
+
+    #whyus h3, .ppp{
+        text-align: center;
+    }
+
+    /* testimonial */
+    .slider {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        /* padding: 2rem; */
+        margin: 2rem;
+    }
+
+    .slider .leftBox, .slider .rightBox{
+        width: 100%;
+        padding: 0rem;
+    }
+
+    /* .slider .rightBox{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    } */
+
+    .slider .rightBox img{
+        padding: 1.5rem 7.5rem;
+    }
+
+    /* banner */
+    .banner{
+        padding: 2rem;
+    }
+
+    .banner .cardBan{
+        padding: 2rem;
+    }
+
+    .banner .cardBan p{
+        width: 100%;
+    }
+
+    /* FAQ */
+    #faq{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .faqKiri, .faqKanan{
+        width: 100%;
+        /* padding: 3rem; */
+    }
+
+    /* footer */
+    .footer{
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .foot, .foot2{
+        width: 100%;
+        padding: 0rem;
+    }
+}
